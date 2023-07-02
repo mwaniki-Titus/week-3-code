@@ -1,0 +1,57 @@
+
+# Movie Website
+
+The Movie Website project is a web application that allows users to view and interact with a list of movies. It retrieves movie data from a local server and displays it on a webpage. Users can click on a movie title to view additional details about the movie and purchase tickets for the first movie.
+
+## Features
+
+- Display a list of movies retrieved from a local server.
+- Click on a movie title to view additional details, including the movie poster, description, showtime, and runtime.
+- Purchase tickets for the first movie by clicking on the "Purchase Ticket" button.
+- Update the server with the new ticket count when a ticket is purchased.
+
+## Prerequisites
+
+Before running the Movie Website, ensure that you have the following installed:
+
+- A modern web browser (e.g., Google Chrome, Mozilla Firefox)
+- An internet connection
+- A local server 
+
+## Installation
+
+1. Clone or download the project repository to your local machine.
+2. Start your local server and ensure it is running on `http://localhost:3000`.
+3. Open the project folder and locate the `index.html` file.
+4. Open the `index.html` file in your preferred web browser.
+
+## Usage
+
+Upon opening the Movie Website in your web browser, you will see a list of movies retrieved from the local server. Each movie is displayed with its title.
+
+- To view additional details about a movie:
+  - Click on the movie title. This will reveal the movie poster, description, showtime, and runtime.
+  - The movie details will be displayed in the right container of the webpage.
+
+- To purchase tickets for the first movie:
+  - If there are available tickets, a "Purchase Ticket" button will be displayed below the movie details.
+  - Click on the "Purchase Ticket" button to buy a ticket.
+  - The ticket count for the first movie will be incremented on the server.
+  - If all tickets have been sold, the "Purchase Ticket" button will be disabled.
+
+## Customization
+
+If you want to modify the code or adapt it to your specific needs, you can make changes to the HTML, CSS, and JavaScript files.
+
+- HTML: Modify the structure of the webpage in the `index.html` file. Update the containers, add or remove elements, or change the layout as desired.
+
+- CSS: Customize the styles of the webpage in the `style.css` file. Update the CSS rules to change the appearance, colors, fonts, and layout of the elements.
+
+- JavaScript: Adjust the functionality and interaction with the server in the `script.js` file. Modify the API endpoints, add new event listeners, or enhance the dynamic behavior as needed.
+
+
+## Acknowledgments
+
+- This project utilizes JavaScript and the Fetch API to interact with the local server and retrieve movie data.
+- The HTML structure and CSS styles are designed to provide a visually appealing movie browsing experience.
+- The project was inspired by movie websites and their functionality.

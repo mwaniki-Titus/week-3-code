@@ -1,0 +1,80 @@
+header{
+    color: blueviolet;
+    text-align: center;
+    background-color: rgb(187, 151, 151);
+    font-size: 35px;
+    font-style:oblique
+}
+
+body{
+    margin: 0;
+    background-color: grey;
+}
+
+.container{
+    text-align:right;
+    font-size: 22px;
+    float: right;
+    width: 300px;
+    height: 300px;
+}
+
+.list{
+    text-align: left;
+    font-size: 37px;
+    font-style: italic;
+}
+
+button{
+    background-color: lightgreen;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 13px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+  
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+  }
+
+  #cont{
+    text-align: left;
+    float: left;
+    color: aliceblue;
+    
+  }
+
+  #cont:hover{
+    cursor: pointer;
+  }
+
+  img{
+    width:200px;
+    height:200px;
+  }
+
+  .container{
+    width:100vw;
+    height:90vh;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.container-1, .container-2, .container-3{
+        border:3px solid black;
+        width:30%;
+        height:100%
+     
+    }
+    .output{
+        color:rgb(47, 18, 88);
+        width:40%;
+        height:50%;
+        font-size: 1.2rem;
+    }
